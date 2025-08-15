@@ -1,0 +1,43 @@
+fedex-transportation-analytics/
+│
+├── docs/                        # Documentation
+│   ├── architecture.md          # System architecture
+│   └── api_docs.md              # API documentation
+│
+├── config/                      # Configuration files
+│   ├── spark_config.yml         # Spark configuration
+│   └── app_config.yml          # Application configuration
+│
+├── data/                        # Sample data files
+│   ├── raw/                     # Raw data
+│   └── processed/               # Processed data
+│
+├── notebooks/                   # Jupyter notebooks for exploration
+│   ├── data_exploration.ipynb
+│   └── model_training.ipynb
+│
+├── src/                         # Main source code
+│   ├── modules/                 # All PySpark modules
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_processing.py
+│   │   ├── ...
+│   │   └── visualization.py
+│   ├── jobs/                    # Spark jobs
+│   │   ├── batch_processing.py
+│   │   └── streaming_processing.py
+│   ├── models/                  # ML models
+│   │   ├── delivery_time_prediction.py
+│   │   └── route_optimization.py
+│   ├── utils/                   # Utility functions
+│   │   ├── spark_utils.py
+│   │   └── data_utils.py
+│   └── main.py                  # Main application entry point
+│
+├── tests/                       # Unit tests
+│   ├── test_data_processing.py
+│   └── test_models.py
+│
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project overview
+└── .gitignore
